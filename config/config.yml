@@ -1,0 +1,21 @@
+app:
+  name: 'xenshield'
+  version: '1.0.0'
+
+http:
+  port: '8080'
+
+logger:
+  log_level: 'debug'
+  rollbar_env: 'xenshield'
+
+postgres:
+  username: user
+  password: pass
+  port: 5432
+  host: localhost
+  ssl_mode: disable
+  db_name: postgres
+
+security:
+  api_key: 'e00a68a9-8e01-4070-9a2d-2c1f13e30cb7'
